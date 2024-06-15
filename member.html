@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>山田太郎さんの会員ページ</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container m-auto mt-4 ">
+    <header>
+      <h4>山田太郎さんの会員ページ</h4>
+    </header>
+
+    <main class="p-4 mb-4 m-auto border border-secondary">
+      <article class="mb-4 p-4 border border-info">
+        <h4 class="mb-4 w-75 text-decoration-underline">東京都の天気</h4>
+        <section class="w-75 table">
+          <div>weather</div><div>Clouds</div>
+          <div>icon</div><div></div>
+          <div>temp</div><div>28 ℃</div>
+          <div>wind</div><div>2.57 (m/s)</div>
+        </section>
+      </article>
+
+      <article class="p-4 mb-4 border border-info">
+        <h4 class="mb-4 w-75 text-decoration-underline">山田太郎さんの会員情報</h4>
+        <section class="w-75 table">
+          <div>お名前</div><div>侍太郎</div>
+          <div>メールアドレス</div><div>taro@example.com</div>
+          <div>年齢</div><div>20歳</div>
+          <div>住所</div><div>東京都</div>
+        </section>
+      </article>
+
+      <section class="p-4 border border-info text-center">
+        <button id="area-btn" class="btn me-2 btn-primary">地域天気表示</button>
+        <button id="info-btn" class="btn me-2 btn-primary">会員情報表示</button>
+      </section>
+    </main>
+
+    <footer class="text-center">
+      <a href="login.html" class="btn btn-secondary">ログアウト</a>
+    </footer>
+  </div>
+<script type="module" src="js/script.js"></script>
+</body>
+</html>
